@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>About Us page</h1>
+    <p>
+      Largest selection of dad jokes on the internet using
+      <a href="https://icanhazdadjoke.com/">icanhazdadjoke.com</a>
+    </p>
   </div>
 </template>
 
