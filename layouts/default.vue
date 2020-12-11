@@ -23,7 +23,9 @@ export default {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   font-size: 1rem;
   line-height: 1.6;
   background: #f4f4f4;

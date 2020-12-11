@@ -27,7 +27,12 @@ input {
   border: 1px solid #ebeced;
   padding: 0.5rem;
   border-radius: 0.25rem;
+  margin-right: 0.2rem;
 }
+form {
+  display: flex;
+}
+
 button {
   background-color: #00c58e;
   padding: 0.5rem;

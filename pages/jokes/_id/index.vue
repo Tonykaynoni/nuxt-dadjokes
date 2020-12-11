@@ -19,7 +19,6 @@
       Back To Jokes
     </nuxt-link>
     <h2 class="joke-style">{{ joke }}</h2>
-    <div class="buttom-design"></div>
     <small>Joke ID: {{ $route.params.id }}</small>
   </div>
 </template>
@@ -51,7 +50,8 @@ export default {
 </script>
 
 <style scoped>
-h2::after {
+.joke-style::after {
+  margin-top: 0.7rem;
   content: "";
   border: 2px solid #526480;
   border-radius: 0.5rem;
@@ -62,6 +62,9 @@ h2::after {
 .joke-style {
   margin-top: 1rem;
   font-weight: 900;
+  font-family: Quicksand, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
 .back-button {
   display: flex;

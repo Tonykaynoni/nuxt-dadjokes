@@ -20,6 +20,8 @@ export default {};
   align-items: center;
   margin-bottom: 1rem;
   border-bottom: 1px dotted #ccc;
+  padding-bottom: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .header .title {
