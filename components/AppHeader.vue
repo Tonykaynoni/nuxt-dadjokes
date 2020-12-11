@@ -33,7 +33,7 @@ export default {};
 
 .header a {
   display: inline-block;
-  background: #333;
+  background: #526488;
   color: #fff;
   padding: 0.3rem 1rem;
   margin-right: 0.5rem;
